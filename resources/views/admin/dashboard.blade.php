@@ -11,6 +11,11 @@
     {{ session('success') }}
 </div>
 @endif
+@include('layouts.navbar')
+
+<h1>Dashboard Admin</h1>
+
+{{-- Konten dashboard admin --}}
 
 <div class="card">
     <div class="card-header bg-warning">

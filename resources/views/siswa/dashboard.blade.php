@@ -11,6 +11,11 @@
     {{ session('success') }}
 </div>
 @endif
+@include('layouts.navbar')
+
+<h1>Dashboard Siswa</h1>
+
+{{-- Konten dashboard siswa --}}
 
 <!-- FORM KIRIM ASPIRASI -->
 <div class="card mb-4">
